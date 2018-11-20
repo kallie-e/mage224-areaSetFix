@@ -1,0 +1,22 @@
+{
+    "name": "kallieexperiments/module-magentoemail",
+    "description": "Experimental code to fix 2.2.4 theming bug.  Purely for educational purposes as this was long since fixed by 2.2.6 by the time I tried this",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "kallieexperiments@gmail.com",
+            "name": "Kallie Experiments"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "KallieExperiments\\MagentoEmail\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
